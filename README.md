@@ -1,4 +1,5 @@
 # Ex-No-5-Creating-Triggers-using-PL-SQL
+# Date:
 # AIM: 
 To create a Trigger using PL/SQL.
 # Steps:
@@ -53,9 +54,6 @@ IF :OLD.salary != :NEW.salary THEN INSERT INTO sal_log (empid, empname, old_sala
 <img width="308" alt="271347898-179db77c-09e3-4228-ba15-c3da3def7a2e" src="https://github.com/thrikesh/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/119576222/5312477f-2438-4c4c-8228-0a0a86a21724">
 <br>
 <img width="460" alt="271348015-3b6cae3e-afba-4618-bf65-99e80fb07e54" src="https://github.com/thrikesh/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/119576222/ce45e494-bc23-46a7-93cd-d39037ce77ab">
-
-
-
 
 # Result:
 The program has been implemented successfully
